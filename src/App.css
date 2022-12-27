@@ -1,6 +1,26 @@
-.App {
+.searchBox {
+
+  height: 40vh;
+  width: 100vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
+.searchBox__heading{
+  padding: 1rem auto;
+  margin-bottom: 2rem;
+}
 
-
-
+.searchBox__Input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40rem;
+  height: 2rem;
+  border-radius: 1rem;
+  paddig-left: 1 rem;
+  margin-bottom: 1.5rem;
+}
