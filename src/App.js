@@ -13,6 +13,14 @@ function App() {
       />
       <span className='searchBox__count'>total count of anime</span>
     </div>
+    <ul className='searchedValue'>
+      <li className='searchedValue__list'>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+      <li>list4</li>
+      <li>list5</li>
+      
+    </ul>
   </>
     
   );
