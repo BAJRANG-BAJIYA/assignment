@@ -15,10 +15,10 @@ function App() {
     </div>
     <ul className='searchedValue'>
       <li className='searchedValue__list'>list1</li>
-      <li>list2</li>
-      <li>list3</li>
-      <li>list4</li>
-      <li>list5</li>
+      <li className='searchedValue__list'>list2</li>
+      <li className='searchedValue__list'>list3</li>
+      <li className='searchedValue__list'>list4</li>
+      <li className='searchedValue__list'>list5</li>
       
     </ul>
   </>
