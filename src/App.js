@@ -1,13 +1,19 @@
 import './App.css';
+import Pagination from './Pagination';
 
 function App() {
+  const [filter, setFilter]=useState("");
+  const [currentPage, setCurrentPage]=useState(1);
+  const [postsPerPage, setPostsPerPage]=useState(15);
 
+  
   return (
   <>
     <div className="searchBox">
       <h1 className='searchBox__heading'>Search Anime Characters</h1>
       <input 
         type="text"
+        value={filter}
         placeholder='Search here'
         className='searchBox__Input'
       />
@@ -21,6 +27,12 @@ function App() {
       <li className='searchedValue__list'>list5</li>
       
     </ul>
+    <Pagination 
+        totalPosts={opdata.length}
+        postsPerPage={postsPerPage}  
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+        />
   </>
     
   );
